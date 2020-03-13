@@ -33,6 +33,9 @@ function MyDiff()
     let &shellxquote=l:shxq_sav
   endif
 endfunction
+
+colo koehler
+set nu
 set number
 set tabstop=4
 set softtabstop=4
